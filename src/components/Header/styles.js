@@ -8,7 +8,8 @@ height:100px;
 export const Wrapper = styled.nav`
 max-width:1200px;
 padding: 8px 8px;
-margin:0 auto;
+margin: 0 auto;
+
 height: 91px;
 img{
    width:134px;

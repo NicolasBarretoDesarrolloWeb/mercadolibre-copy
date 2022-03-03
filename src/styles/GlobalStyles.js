@@ -12,9 +12,9 @@ export default createGlobalStyle`
       --green: #00a650;
       --blue1: #1e6dff;
       --blue2: #2968c8;
-      --blue2: #3483fa;
+      --blue3: #3483fa;
       --yellow: #fff159;
-      --border: #ddd;
+      --border: #ededed;
       --family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       --panel: 0 1px 3px 0 rgba(0, 0, 0, .3);
       --reputacion1: #ffe7e6;
@@ -22,8 +22,8 @@ export default createGlobalStyle`
   
   
 *{
-margin:0;
-padding:0;
+
+padding:0 auto;
 box-sizing: border-box;
 
 }
