@@ -2,8 +2,7 @@ import styled from "styled-components";
 export const Container =styled.div`
 display: flex;
 flex-direction:column;
-margin-top: 12px;
-border: 1px solid red;`
+margin-top: 12px;`
 export const Panel = styled.div`
 background-color: var(--white);
 box-shadow: var(--panel);
