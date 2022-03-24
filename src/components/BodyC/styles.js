@@ -4,6 +4,7 @@ export const Container =styled.div`
 padding-top: 12px;
 display: flex;
 justify-content: space-between;
+background-color:var(--body);
 `
 export const Row = styled.div`
 >a{

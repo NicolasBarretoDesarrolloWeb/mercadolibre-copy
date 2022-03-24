@@ -18,8 +18,10 @@ export default createGlobalStyle`
       --family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       --panel: 0 1px 3px 0 rgba(0, 0, 0, .3);
       --reputacion1: #ffe7e6;
+      --menu: #333333;
+      --body: #ededed;
 
-  
+
   
 *{
 
@@ -41,6 +43,9 @@ html{
     border: 0;
     background-color: none;
     font-family: var(--family);
+}
+body{
+    background-color: var(--body);  
 }
 
 `

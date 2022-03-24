@@ -6,13 +6,17 @@ export const Header = () => {
 <Container>
 
   <Wrapper>
-    <img src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/logo__large_plus.png" alt="logo"/>
+    <div className='logo'><img className='imgLogo' src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/logo__large_plus.png" alt="logo"/></div>
+    <div className='buscador'>
+    <input type="search" action="https://www.mercadolibre.com.ar/jm/search" className='lupa' placeholder='Buscar productos, marcas y más...'/></div>
+    <div className='disney'><img className='imgDisney' src="https://http2.mlstatic.com/D_NQ_788302-MLA49129922681_022022-OO.webp" alt="disney"/></div>
   </Wrapper>
   
-  <Wrapper2 className='busqueda'>
+  <Wrapper2 >
   
-  <input type="search" action="https://www.mercadolibre.com.ar/jm/search" className='lupa' placeholder='Buscar productos, marcas y más...'/>
-  <Row className='botonera'>
+ 
+  <Row>
+    
       <a href="#">Catalogo</a>
       <a href="#">Ofertas</a>
       <a href="#">Historial</a>
@@ -20,7 +24,7 @@ export const Header = () => {
       <a href="#">Moda</a>
       <a href="#">Vender</a>
       <a href="#">Ayuda</a>
-    
+      
     </Row>
   </Wrapper2> 
   
